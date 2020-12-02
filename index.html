@@ -1,0 +1,148 @@
+<html>
+ <head>
+  <title> FourSwipes - Get your news, short and simple. In four swipes.  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+  <script src="https://kit.fontawesome.com/8d7b655e5f.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href = "style.css">
+ </head>
+ <body>
+  <div id = "fullpage">
+   <div class = "pane active" id="pane1">
+     <a href="#pane01"></a>
+     <div data-aos="flip-left" class = "main-title"> FourSwipes </div> <!--end of pane title -->
+     <div data-aos="fade-up" class = "main-desc"> Get your news short and simple, in just four swipes. </div> <!--end of pane desc -->
+     <div data-aos="fade-up" class = "main-desc"> Here's what's happening: <p id="datedisplay"></p></div>
+     <div class = "down-arrow"> <i class="fas fa-chevron-down"></i> </div>
+   </div>
+
+   <div class = "pane" id="pane2" style="">
+     <a id="pane2" href="#pane02" name = "pane1top"></a>
+     <div data-aos="flip-up" id= "pane2" class = "pane-title"></div>
+     <div data-aos="flip-up" id= "pane2" class = "pane-tag"></div>
+     <div data-aos="flip-up" id= "pane2" class = "pane-desc"></div>
+     <img class = "pane-img" id= "pane2" src=""></img>
+     <div class = "pane-extra" id = "pane2">
+     <h3 class = "pane-extra-subh"> Coronavirus Emergency Package </h2>
+     <p class = "pane-extra-p"> </p>
+     <ul class = "pane-extra-ul">
+       <h1> Here's some more articles on this topic: </h1>
+       <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+       <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+       <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+       <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+     </ul>
+     </div> <!--end of pane extra -->
+     <div data-aos="flip-up" class = "pane-options" id="pane2">
+      <i id = "panetwitter" class="fab fa-twitter">
+         <div id="tweetBtn" class ="twitter-button">
+            <a class="twitter-share-button" href="http://twitter.com/share" data-url="https://fourswipes.com/pane1top" data-text="Check out the latest news on FourSwipes!" data-via="FourSwipes">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </i>
+       <i id = "pane2" class="fas fa-ellipsis-h"></i>
+       <i id = "pane2" class="fas fa-link"></i>
+     </div> <!--end of pane options -->
+   </div>
+
+   <div class = "pane" id="pane3" style="">
+     <a id = "pane3" href = "#pane03" name = "pane2top"></a>
+     <div data-aos="flip-up" id= "pane3" class = "pane-title"></div>
+     <div data-aos="flip-up" id= "pane3" class = "pane-tag"></div>
+     <div data-aos="flip-up" id= "pane3" class = "pane-desc"></div>
+     <img class = "pane-img" id= "pane3" src=""></img>
+     <div class = "pane-extra" id = "pane3">
+      <ul class = "pane-extra-ul">
+        <h1> Here's some more articles on this topic: </h1>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+      </ul>
+     </div> <!--end of pane extra -->
+     <div data-aos="flip-up" class = "pane-options" id="pane3">
+       <i id = "panetwitter" class="fab fa-twitter"> <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="" data-url="https://fourswipes.com#pane1top" data-via="FourSwipes" data-hashtags="" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </i>
+       <i id = "pane3" class="fas fa-ellipsis-h"></i>
+       <i id = "pane3" class="fas fa-link"></i>
+     </div> <!--end of pane options -->
+   </div>
+
+   <div class = "pane" id="pane4" style="">
+     <a id="pane4" href="#pane04" name = "pane3top"></a>
+     <div data-aos="flip-up" id= "pane4" class = "pane-title"></div>
+     <div data-aos="flip-up" id= "pane4" class = "pane-tag"></div>
+     <div data-aos="flip-up" id= "pane4" class = "pane-desc"></div>
+     <img class = "pane-img" id= "pane4" src=""></img>
+     <div class = "pane-extra" id = "pane4">
+      <ul class = "pane-extra-ul">
+        <h1> Here's some more articles on this topic: </h1>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+      </ul>
+     </div> <!--end of pane extra -->
+     <div data-aos="flip-up" class = "pane-options" id="pane4">
+       <i id = "panetwitter" class="fab fa-twitter"> <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="" data-url="https://fourswipes.com#pane1top" data-via="FourSwipes" data-hashtags="" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </i>
+       <i id = "pane4" class="fas fa-ellipsis-h"></i>
+       <i id = "pane4" class="fas fa-link"></i>
+     </div> <!--end of pane options -->
+   </div>
+
+   <div class = "pane" id="pane5" style="">
+     <a id="pane5" href="#pane05" name = "pane4top"></a>
+     <div data-aos="flip-up" id= "pane5" class = "pane-title"></div>
+     <div data-aos="flip-up" id= "pane5" class = "pane-tag"></div>
+     <div data-aos="flip-up" id= "pane5" class = "pane-desc"></div>
+     <img class = "pane-img" id= "pane5" src=""></img>
+     <div class = "pane-extra" id = "pane5">
+      <ul class = "pane-extra-ul">
+        <h1> Here's some more articles on this topic: </h1>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+        <li><a href="https://www.nbcnews.com/politics/2020-election/bernie-sanders-claims-victory-iowa-no-winner-has-been-declared-n1131931">Bernie Sanders Claims Victory in Iowa, No Winner Has Been Declared</a></li>
+      </ul>
+     </div> <!--end of pane extra -->
+     <div data-aos="flip-up" class = "pane-options" id="pane5">
+       <i id = "panetwitter" class="fab fa-twitter"> <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="" data-url="https://fourswipes.com#pane1top" data-via="FourSwipes" data-hashtags="" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </i>
+       <i id = "pane5" class="fas fa-ellipsis-h"></i>
+       <i id = "pane5" class="fas fa-link"></i>
+     </div> <!--end of pane options -->
+   </div>
+   <div class = "footer pane" id="pane6">
+     <a href = "#pane06"></a>
+     <p data-aos="flip-up" style="font-size: 50px; font-weight: bolder;"> And that is all for your daily Four Swipes. </p>
+     <p data-aos="flip-up" style="font-size: 25px; margin-top: -25px;"> Remember that if you want more information on the topics presented daily, to click the "More Options" button present on each pane!  </p>
+     <div data-aos="flip-up" class = "social-links">
+      <i class="fab fa-instagram"></i>
+      <i id="sociallinktwitter" class="fab fa-twitter"></i>
+      <i class="far fa-envelope"></i>
+     </div>
+     <p style = "margin-top: 50px; color: #999;"> AmberX Media &copy 2020 </p>
+   </div> <!--END OF FOOTER -->
+ </div> <!--END OF FULL PAGE DIV -->
+   <script>
+    AOS.init();
+    //initiate fullpage.js
+    new fullpage('#fullpage', {
+    	//options here
+      licenseKey:'FF3CD4A1-2E974AD8-BFE99D4F-6BA7D253',
+      sectionSelector: '.pane',
+      anchors:['pane01', 'pane02', 'pane03', 'pane04', 'pane05','pane06'],
+      scrollBar: true,
+    	scrollHorizontally: false
+    });
+  </script>
+ </body>
+</html>
